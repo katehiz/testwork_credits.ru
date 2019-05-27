@@ -1,0 +1,5 @@
+// transform color use tone (up/down)
+@function tone($color, $tone: 1, $dir: up) {
+  $adjust: if($dir == up, 16, -16) * $tone;
+  @return adjust-color($color, $red: $adjust, $green: $adjust, $blue: $adjust);
+}

@@ -1,0 +1,30 @@
+// font
+$font-family-base: Roboto, Arial, Helvetica, sans-serif;
+$font-size-base: 16px !default;
+$medium-font-size: $font-size-base * 0.875;
+$small-font-size: $font-size-base * 0.75;
+
+$font-weight-base: 400;
+$font-weight-bold: 700;
+$font-style-normal: normal;
+$line-height-base: 1.3em;
+
+// color
+$color-gold:      #C8A35F;
+$color-dark:      #2F343A;
+$color-darkgrey:  #393F47;
+$color-grey:      #E5E5E5;
+$color-white:     #ffffff;
+
+// links
+$link-color: $color-white;
+$link-decoration: none !default;
+$link-hover-color: $color-gold !default;
+$link-hover-decoration: underline !default;
+
+// headers
+$headings-margin-bottom: 2rem;
+$paragraph-margin-bottom: 1.25rem;
+
+$h1-font-size: $font-size-base * 4 !default;
+$h2-font-size: $font-size-base * 2.5 !default;
